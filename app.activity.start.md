@@ -1,6 +1,8 @@
-### Help information detail about this command ###
-    help scanner.provider.finduri
-    help app.provider.insert
+# Help information detail about this command #
+
+    ```help scanner.provider.finduri```
+    
+    ```help app.provider.insert```
     
     
 dz> run app.activity.info -a jakhar.aseem.diva
