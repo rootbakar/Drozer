@@ -1,4 +1,4 @@
-# Help information detail about this command #
+# Using `help` command for detail information #
 
 ```help scanner.provider.finduri```
 <br><br>
