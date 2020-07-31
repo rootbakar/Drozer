@@ -1,10 +1,10 @@
-# Help information detail about this command #
+# Using `help` command for detail information #
     
 ```help scanner.provider.injection```
 <br><br>
 ```help app.provider.query```
 <br><br><br>
-* **Running scanner.provider.injection for scanning available vulnerable content injection**
+* **Running `scanner.provider.injection` for scanning available vulnerable content injection**
 
 ```
 dz> run scanner.provider.injection -a jakhar.aseem.diva
@@ -22,7 +22,7 @@ Injection in Selection:
   content://jakhar.aseem.diva.provider.notesprovider/notes
 ```
 
-* **Running app.provider.query for dump all tables field**
+* **Running `app.provider.query` for dump all tables field**
 ```
 dz> run app.provider.query content://jakhar.aseem.diva.provider.notesprovider/notes/ --projection "*"
 | _id | title    | note                                 |
