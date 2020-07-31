@@ -16,8 +16,8 @@ Package: jakhar.aseem.diva
   jakhar.aseem.diva.APICreds2Activity
     Permission: null
 ```    
-</br><br>
-* Running app.activity.info 
+
+* Running app.activity.start 
 ```
 dz> run app.activity.start --component jakhar.aseem.diva jakhar.aseem.diva.APICredsActivity
 ```
