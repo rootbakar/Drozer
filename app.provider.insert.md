@@ -4,7 +4,7 @@
 <br><br>
 ```help app.provider.insert```
 <br><br><br>
-* **Running scanner.provider.finduris for scanning availabe accessible content**
+* **Running `scanner.provider.finduris` for scanning availabe accessible content**
 ```
 dz> run scanner.provider.finduris -a jakhar.aseem.diva
 Scanning jakhar.aseem.diva...
@@ -17,12 +17,12 @@ Accessible content URIs:
   content://jakhar.aseem.diva.provider.notesprovider/notes/
   content://jakhar.aseem.diva.provider.notesprovider/notes
 ```  
-* **Running app.provider.insert for inject some content into tables**
+* **Running `app.provider.insert` for inject some content into tables**
 ```
 dz> run app.provider.insert content://jakhar.aseem.diva.provider.notesprovider/notes/ --string title RootBakar --string note "Hi this is RootBakar Pawn Here" --integer _id 7
 Done.
 ```
-* **Running app.provider.query for view all tables field**
+* **Running `app.provider.query` for view all tables field**
 ```
 dz> run app.provider.query content://jakhar.aseem.diva.provider.notesprovider/notes/
 | _id | title     | note                                 |
