@@ -1,6 +1,6 @@
 **Help information using this command**
-help scanner.provider.finduri
-    help 
+*help scanner.provider.finduri*
+   *help*
 
 
 dz> run scanner.provider.finduris -a jakhar.aseem.diva
