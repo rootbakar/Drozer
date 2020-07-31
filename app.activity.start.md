@@ -5,7 +5,7 @@
 </br>
 ```help app.provider.insert```
 </br></br></br>
-* Running app.activity.info
+* Running app.activity.info for view all activity information about some package
 ```    
 dz> run app.activity.info -a jakhar.aseem.diva
 Package: jakhar.aseem.diva
@@ -17,7 +17,7 @@ Package: jakhar.aseem.diva
     Permission: null
 ```    
 
-* Running app.activity.start 
+* Running app.activity.start for launch private activity from some package
 ```
 dz> run app.activity.start --component jakhar.aseem.diva jakhar.aseem.diva.APICredsActivity
 ```
