@@ -1,0 +1,31 @@
+Help information using this command
+```help scanner.provider.finduri```
+    help 
+
+
+dz> run scanner.provider.finduris -a jakhar.aseem.diva
+Scanning jakhar.aseem.diva...
+Able to Query    content://jakhar.aseem.diva.provider.notesprovider/notes/
+Unable to Query  content://jakhar.aseem.diva.provider.notesprovider
+Unable to Query  content://jakhar.aseem.diva.provider.notesprovider/
+Able to Query    content://jakhar.aseem.diva.provider.notesprovider/notes
+
+Accessible content URIs:
+  content://jakhar.aseem.diva.provider.notesprovider/notes/
+  content://jakhar.aseem.diva.provider.notesprovider/notes
+  
+  
+dz> run app.provider.insert content://jakhar.aseem.diva.provider.notesprovider/notes/ --string title RootBakar --string note "Testing Here"
+Done.
+
+dz> run app.provider.query content://jakhar.aseem.diva.provider.notesprovider/notes/
+| _id | title     | note                                 |
+| 5   | Exercise  | Alternate days running               |
+| 4   | Expense   | Spent too much on home theater       |
+| 7   | RootBakar | Rootbakar_Here                       |
+| 8   | RootBakar | RootbakarHere                        |
+| 9   | RootBakar | Testing Here                         |
+| 6   | Weekend   | b333333333333r                       |
+| 3   | holiday   | Either Goa or Amsterdam              |
+| 2   | home      | Buy toys for baby, Order dinner      |
+| 1   | office    | 10 Meetings. 5 Calls. Lunch with CEO |
