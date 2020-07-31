@@ -1,10 +1,12 @@
 # Help information detail about this command #
-
-    ```help scanner.provider.finduri```
     
-    ```help app.provider.insert```
-    
-    
+```help scanner.provider.finduri```
+</br>
+</br>
+```help app.provider.insert```
+</br></br></br>
+* Running app.activity.info
+```    
 dz> run app.activity.info -a jakhar.aseem.diva
 Package: jakhar.aseem.diva
   jakhar.aseem.diva.MainActivity
@@ -13,6 +15,9 @@ Package: jakhar.aseem.diva
     Permission: null
   jakhar.aseem.diva.APICreds2Activity
     Permission: null
-    
-    
+```    
+</br><br>
+* Running app.activity.info 
+```
 dz> run app.activity.start --component jakhar.aseem.diva jakhar.aseem.diva.APICredsActivity
+```
